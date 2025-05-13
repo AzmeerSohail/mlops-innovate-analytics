@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/Taloo123/https://github.com/Taloo123/mlops-innovate-analytics.git'
+                git 'https://github.com/AzmeerSohail/mlops-innovate-analytics.git'
             }
         }
 
