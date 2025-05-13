@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: mlops-container
-        image: taloo123/mlops-project
+        image: azmeer914/mlops-project
         ports:
         - containerPort: 5000

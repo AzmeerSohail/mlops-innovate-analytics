@@ -11,7 +11,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    docker.build('taloo123/mlops-project')
+                    docker.build('azmeer914/mlops-project')
                 }
             }
         }
@@ -25,7 +25,7 @@ pipeline {
                 )]) {
                     script {
                         docker.withRegistry('https://index.docker.io/v1/', 'dockerhub-creds') {
-                            docker.image('yourdockerhubusername/mlops-project').push()
+                            docker.image('azmeer914/mlops-project').push()
                         }
                     }
                 }
